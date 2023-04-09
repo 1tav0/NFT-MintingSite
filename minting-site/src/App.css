@@ -1,0 +1,92 @@
+.main{
+  background-color: black;
+  width: 960px;
+  height: 50vh;
+  min-height: 460px;
+  border-radius: 15px;
+  overflow: hidden;
+  display:flex; /*this is for grow and putting blue row at bottomw */
+  flex-direction: column; /*this also needed*/
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer{
+  background-color: #b5dd17;
+  color: black;
+  font-size: large;
+  text-decoration: solid;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+
+.minting{
+  display: flex;
+  color: white;
+  flex-grow: 1; /* used with growing flex coulmn in main*/
+}
+
+.mint-start{
+  display: flex;
+  gap: 20px;
+}
+.left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+  width: 50%;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.minted-amount{
+  color: #999;
+  font-size: 18px;
+}
+.actions{
+  display: flex;
+  margin-top: 15px;
+}
+
+.connect-wallet{
+  background-color: rgb(192, 226, 43);
+  color: black;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s all ease-in-out;
+} 
+
+.connect-wallet:hover{
+  background-color: #333;
+  color: white;
+}
+
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}

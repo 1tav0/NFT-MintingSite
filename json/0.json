@@ -1,0 +1,20 @@
+{
+    "external_url": "www.google.com",
+    "image": "ipfs://QmQX6jPfRRmUapJqxFTMjTyrAQnYUjTrVJ2xZ5zmvP5Bft/0.png",
+    "name": "cryptoGang #0",
+    "description": "The NFT gang leader",
+    "attributes": [
+        {
+            "trait_type": "Edition",
+            "value": "1"
+        },
+        {
+            "trait_type": "Type",
+            "value": "leader"
+        },
+        {
+            "trait_type": "SZN",
+            "value": "Swole"
+        }
+    ]
+}
